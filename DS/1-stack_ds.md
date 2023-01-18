@@ -1,4 +1,4 @@
-**stack** = LIFO data structure. <b Last-In First-Out
+**stack** = LIFO data structure. <br/> Last-In First-Out
 		            stores objects into a sort of "vertical tower"
 	 		        push() to add objects to the top
 				    pop() to remove objects from the top
