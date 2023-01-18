@@ -2,7 +2,7 @@
 		            stores objects into a sort of "vertical tower"
 	 		        push() to add objects to the top
 				    pop() to remove objects from the top
-		
+		<img src="https://cdn.discuss.boardinfinity.com/original/2X/9/973c2be769225883ce76291061dcd5ab0d157319.png" height=250px alt="image representation">
 **uses of stacks?**
 1. undo/redo features in text editors
 2. moving back/forward through browser history
