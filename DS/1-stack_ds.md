@@ -36,7 +36,7 @@ public class Main{
 	}
 }
 ```
-**Manual implementation**
+**Manual implementation Using** -*java* 
 ```java
 // Stack implementation in Java
 
@@ -108,4 +108,36 @@ class Stack {
 
   }
 }
+```
+**Manual implementation Using** - *python* 
+```python
+# Creating stack
+def create_stack():
+    stack = []
+    return stack
+
+
+def is_empty(stack):
+    return len(stack) == 0
+
+
+def push(stack, element):
+    stack.append(element)
+    print("Inserted ", element)
+
+
+def pop(stack):
+    if (is_empty(stack)):
+        print("Stack empty.. ")
+
+    return stack.pop()
+
+
+stack = create_stack()
+push(stack, int(1))
+push(stack, int(4))
+push(stack, int(5))
+print(f"popped item: {pop(stack)}")
+print(f"stack after popping an element: {stack} ")
+
 ```
