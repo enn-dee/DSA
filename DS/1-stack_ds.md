@@ -147,3 +147,19 @@ if __name__ == "__main__":
     print(stack)
 ```
 
+**Revrese String using stack** <br/>
+1- Create new file main.py , import stack file (here stackDS)
+```python
+import stackDS
+string = "olleh"
+reverse_Word = ""
+stck = stackDS.Stack()
+for char in string:
+    stck.push(char)
+
+while not stck.is_empty():
+    reverse_Word += stck.pop()
+
+print(reverse_Word)
+
+  ```
