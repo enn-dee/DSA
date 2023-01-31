@@ -111,33 +111,55 @@ class Stack {
 ```
 **Manual implementation Using** - *python* 
 ```python
-# Creating stack
-def create_stack():
-    stack = []
-    return stack
+class Stack:
+    def __init__(self):
+        self.items = []
 
+    def push(self, item):
+        self.items.append(item)
 
-def is_empty(stack):
-    return len(stack) == 0
+    def pop(self):
+        return self.items.pop()
 
+    def is_empty(self):
+     return len(self.items) == 0
 
-def push(stack, element):
-    stack.append(element)
-    print("Inserted ", element)
+    def peek(self):
+        return self.items[-1]
 
+    def __str__(self):
+        return str(self.items)
 
-def pop(stack):
-    if (is_empty(stack)):
-        print("Stack empty.. ")
-
-    return stack.pop()
-
-
-stack = create_stack()
-push(stack, int(1))
-push(stack, int(4))
-push(stack, int(5))
-print(f"popped item: {pop(stack)}")
-print(f"stack after popping an element: {stack} ")
-
+if __name__ == "__main__":
+    stack = Stack()
+    print(stack.is_Empty())
+  
+    stack.push(5)
+    print(stack.is_Empty())
+  
+    stack.push(2)
+    stack.push(7)
+  
+    print(f"Last element is: {stack.peek()}")
+    print(f"Removed element: {stack.pop()}")
+    print(f"Now last element is: {stack.peek()}")
+  
+    print(stack)
 ```
+
+**Revrese String using stack** <br/>
+1- Create new file main.py , import stack file (here stackDS)
+```python
+import stackDS
+string = "olleh"
+reverse_Word = ""
+stck = stackDS.Stack()
+for char in string:
+    stck.push(char)
+
+while not stck.is_empty():
+    reverse_Word += stck.pop()
+
+print(reverse_Word)
+
+  ```
