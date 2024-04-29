@@ -8,12 +8,18 @@ This repository hosts meticulously crafted implementations of essential data str
 
 ## 📚 Table of Contents
 
-- [Arrays](./DS//Array.md): Learn how to manipulate arrays efficiently with operations like insertion, deletion, searching, and more.
-- [Linked Lists](./DS//LinkedList.md): Dive into the world of linked lists, including singly linked lists, doubly linked lists, and circular linked lists.
-- [Stacks](./DS//Stack.md): Explore the stack data structure and its essential operations like push, pop, and peek.
-- [Queues](./DS//Queue.md): Master the queue data structure with operations like enqueue, dequeue, and more.
-- [Trees](./DS//Tree.md): Discover various tree structures, including binary trees, binary search trees, AVL trees, and more.
-- [Graphs](./DS//Graph.md): Delve into the realm of graphs with traversal algorithms, shortest path algorithms, and more.
+## Data Structures
+
+- [Arrays](./DS//Array.md)
+- [Linked Lists](./DS//LinkedList.md)
+- [Stacks](./DS//Stack.md)
+- [Queues](./DS//Queue.md)
+- [Trees](./DS//Tree.md)
+- [Graphs](./DS//Graph.md)
+
+## Algorithms
+
+- [InsertionSort](./Algo/InsertionSort.md)
 
 ## 🚀 Getting Started
 
@@ -26,7 +32,6 @@ We welcome contributions from the community! If you spot a bug, have a feature r
 ## 📝 License
 
 This repository is licensed under the [MIT License](./LICENSE), allowing you to use the code for educational and commercial purposes alike.
-
 
 ## 📧 Contact
 
