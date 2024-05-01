@@ -19,6 +19,12 @@ This repository hosts meticulously crafted implementations of essential data str
 
 ## Algorithms
 
+### *Searching*
+
+- [Linear Search](./Algo/Searching/LinearSearch.md)
+
+## *Sorting*
+
 - [InsertionSort](./Algo/InsertionSort.md)
 
 ## 🚀 Getting Started
